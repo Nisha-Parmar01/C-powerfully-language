@@ -14,7 +14,7 @@ main()
      printf(" Gujrati ke liye 3 dabaye\n" );
      printf("Enter the any number");
      scanf("%d",&n);
-     switch(n)
+     switch(h)
      {     case 1:
 	   clrscr();
 	   printf("Hindi\n\n");
@@ -26,7 +26,7 @@ main()
 	   printf("Enter the any number");
 	   fflush(stdin);
 	   scanf("%d",&h);
-	   switch(h)
+	   switch()
 	     {
 		case 'A':
 		case 'a':
@@ -57,7 +57,7 @@ main()
 	      printf("Enter the any number");
 	      fflush(stdin);
 	      scanf("%d",&h);
-	      switch(h)
+	      switch(n)
 	      {
 		  case 'A':
 		  case 'a':
@@ -88,7 +88,7 @@ main()
 		 printf("Enter the any number");
 
 		 scanf("%d",&h);
-		 switch(h)
+		 switch(n)
 		{
 		  case 'A':
 		  case 'a':
