@@ -5,15 +5,15 @@ main()
 {
 	 int i,j,s;
 	 clrscr();
-	 for(i=5;i>=1; i--)
+	 for(i=69;i>=65; i--)
 	 {
-	    for(s=1;j<i;s++)
+	    for(s=69;s>i;s--)
 	    {
 	      printf(" ");
 	    }
-	    for(j=5;j>=i;j--)
+	    for(j=65;j<=i;j++)
 	    {
-	      printf("%d",j);
+	      printf("%c",j);
 	    }
 	      printf("\n");
 	 }
