@@ -7,15 +7,19 @@ main()
 	 clrscr();
 	 for(i=1;i<=5; i++)
 	 {
-	    for(s=1;s<i;s++)
+	    for(s=5;s>i;s--)
 	    {
 	      printf(" ");
 	    }
-	    for(j=5;j>=i;j--)
+	    for(j=1;j<=i;j++)
 	    {
-	      printf("%d",j);
+	      (j%2!=0)
+	      ?printf("|")
+	      :printf("-");
 	    }
 	      printf("\n");
 	 }
 	 getch();
 }
+
+

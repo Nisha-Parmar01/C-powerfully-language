@@ -5,17 +5,30 @@ main()
 {
 	 int i,j,s;
 	 clrscr();
-	 for(i=65;i<=69; i++)
+	 for(i=5;i>=1; i--)
 	 {
-	    for(s=65;s>i;s--)
+	    for(s=5;s>i;s--)
 	    {
 	      printf(" ");
 	    }
-	    for(j=69;j>=i;j--)
+	    for(j=i;j>1;j--)
 	    {
-	      printf("%c",j);
+	      printf("%d",j%2);
 	    }
 	      printf("\n");
 	 }
 	 getch();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
