@@ -3,20 +3,23 @@
 
 main()
 {
-	int size;
+	int n,i;
 	printf("Enter the Number element:");
-	sacnf("%d",&size);
+	scanf("%d",&n);
 	
-	int i;
+	int array[n];
 	printf("\n\nArray Input\n\n");
-	for(i=0;i<size;i++)
+	for(i=0;i<n;i++)
 	{
-		printf("Eneter the %d element:",i+1);
-		sacnf("%d",&a[i]);
+		printf("a [%d]=:",i);
+		scanf("%d",&array[i]);
 	}
 	printf("\n\nArray Output \n\n");
-	for(i=0;i<size;i++)
-	  printf("%d\t",a[i]);
-
+	for(i=0;i<n;i++)
+	{
+	
+	  printf("a[%d]= %d\n" ,i,array[i]);
+    }
+    printf("Length of an Array :%d\n",n);
 }
 
